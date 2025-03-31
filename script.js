@@ -93,7 +93,7 @@ function guessLetter () {
   }
 
   // Check if guessed letter is in the selected word
-  if (selectedWord.includes(guessedLetters)) {
+  if (selectedWord.includes(guessedLetter)) {
     correctGuess(guessedLetter)
   } else {
     wrongGuess(guessedLetter)
